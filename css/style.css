@@ -23,7 +23,7 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   scroll-padding-top: 7rem;
   scroll-behavior: smooth;
 }
@@ -608,5 +608,9 @@ section:nth-child(even) {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }

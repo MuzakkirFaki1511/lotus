@@ -179,6 +179,11 @@ section:nth-child(even) {
   padding-bottom: 0.7rem;
 }
 
+.icons-container .icons img {
+  height: 8rem;
+  padding-bottom: 0.7rem;
+}
+
 .icons-container .icons h3 {
   font-size: 4.5rem;
   color: var(--black);
@@ -265,6 +270,15 @@ section:nth-child(even) {
   text-transform: none;
 }
 
+.about .global {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 1.8;
+  margin-top: 6rem;
+}
+
 .doctors .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
@@ -334,6 +348,50 @@ section:nth-child(even) {
   font-size: 1.5rem;
   text-align: justify;
   text-transform: none;
+}
+
+.aim-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.aim-container .heading {
+  text-align: left;
+  place-self: center;
+}
+
+.aim-container .aim {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.aim-container .aim i {
+  font-size: 4.5rem;
+  color: var(--primary-color);
+  padding-bottom: 0.7rem;
+}
+
+.aim-container .aim img {
+  height: 8rem;
+  padding-bottom: 0.7rem;
+}
+
+.aim-container .aim h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding-bottom: 0.5rem 0;
+  text-shadow: var(--text-shadow);
+}
+
+.aim-container .aim p {
+  font-size: 1.5rem;
+  color: var(--light-color);
 }
 
 .tips .box-container {

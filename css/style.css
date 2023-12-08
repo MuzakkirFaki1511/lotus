@@ -85,6 +85,14 @@ section:nth-child(even) {
   margin-left: 1rem;
 }
 
+.pad-2 {
+  padding-bottom: 2rem;
+}
+
+.pad-5 {
+  padding-bottom: 5rem;
+}
+
 .header {
   padding: 2rem 9%;
   position: fixed;

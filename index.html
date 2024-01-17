@@ -118,26 +118,66 @@
       data-aos-duration="1600"
     >
       <div class="icons">
-        <i class="fas fa-house-medical"></i>
-        <h3>5000+</h3>
-        <p>nurtured wellness journeys with ayurveda</p>
+        <i class="fa-solid fa-stethoscope"></i>
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h3 class="counter">20</h3>
+          <h3>+</h3>
+        </div>
+        <p>years of experienced doctor's</p>
       </div>
       <div class="icons">
+        <i class="fa-solid fa-notes-medical"></i>
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h3 class="counter">12000</h3>
+          <h3>+</h3>
+        </div>
+        <p>happy infertility, liver & cancer patients</p>
+      </div>
+
+      <div class="icons">
         <i class="fas fa-heart-pulse"></i>
-        <h3>2500+</h3>
-        <p>free from cholesterol & hypertension medicines</p>
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h3 class="counter">15000</h3>
+          <h3>+</h3>
+        </div>
+        <p>free from diabetes, thyroid & BP medications</p>
       </div>
 
       <div class="icons">
         <i class="fas fa-wand-magic-sparkles"></i>
-        <h3>2000+</h3>
-        <p>satisfied hairloss & acne patients</p>
-      </div>
-
-      <div class="icons">
-        <i class="fas fa-cannabis"></i>
-        <h3>1500+</h3>
-        <p>improved health & beauty with our expertise</p>
+        <div
+          style="
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <h3 class="counter">60000</h3>
+          <h3>+</h3>
+        </div>
+        <p>happy hair loss & skin patients</p>
       </div>
     </section>
 
@@ -181,8 +221,8 @@
           <img src="image/services/hair.webp" alt="" />
           <h3>hair bliss services</h3>
           <p>
-            Hair Bliss Services by Lotus Healthcare: Rediscover the lush locks and
-            confidence with our advanced non-surgical treatments for hair
+            Hair Bliss Services by Lotus Healthcare: Rediscover the lush locks
+            and confidence with our advanced non-surgical treatments for hair
             growth, health, and beauty.
           </p>
           <a href="service-hair-bliss.html" class="btn"
@@ -194,9 +234,9 @@
           <img src="image/services/healthcare.webp" alt="" />
           <h3>panchkarma & healthcare</h3>
           <p>
-            Embrace the convergence of
-            modern healthcare practices and rejuvenating Panchkarma therapies
-            for a balanced and holistic approach to wellness.
+            Embrace the convergence of modern healthcare practices and
+            rejuvenating Panchkarma therapies for a balanced and holistic
+            approach to wellness.
           </p>
           <a href="service-healthcare.html" class="btn"
             >learn more <span class="fas fa-chevron-right"></span>
@@ -888,7 +928,12 @@ web-share"
 
     <!-- footer section starts -->
 
-    <section class="footer" data-aos="fade-up" data-aos-duration="1600" style="margin-bottom: 0 !important;">
+    <section
+      class="footer"
+      data-aos="fade-up"
+      data-aos-duration="1600"
+      style="margin-bottom: 0 !important"
+    >
       <div class="box-container">
         <div class="box">
           <h3>quick links</h3>
@@ -971,10 +1016,18 @@ web-share"
     <!-- custom js file link -->
     <script src="js/script.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
     <!-- aos script link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
       AOS.init();
+      $(".counter").counterUp({
+        delay: 20,
+        time: 2000,
+      });
     </script>
 
     <!-- swiperjs script link -->
